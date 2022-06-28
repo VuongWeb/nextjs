@@ -1,0 +1,6 @@
+.menu{
+    @apply bg-blue-300 flex p-4 space-x-5;
+    &__link{
+        @apply hover:bg-green-600 hover:text-yellow-400;
+    }
+}
