@@ -10,7 +10,7 @@ const Header = (props: Props) => {
                 <img src="#" alt="" />
             </div>
             <ul className=' flex p-4 space-x-5'>
-                <li><Link href="#" className='hover:bg-green-600 hover:text-yellow-400'>menu 1</Link></li>
+                <li><Link href="/products" className='hover:bg-green-600 hover:text-yellow-400'>products 1</Link></li>
                 <li><Link href="#" className='hover:bg-green-600 hover:text-yellow-400'>menu 2</Link></li>
                 <li><Link href="#" className='hover:bg-green-600 hover:text-yellow-400'>menu 3</Link></li>
                 <li><Link href="#" className='hover:bg-green-600 hover:text-yellow-400'>menu 4</Link></li>

@@ -17,12 +17,12 @@ const ProductsDetail = ({ product }: ProductProps) => {
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const data = await (await fetch('http://localhost:3001/products')).json();
-  const paths = data.map((item: any) => (
-    { params: { id: item.id } })
-  )
+  const data = await (await fetch(`http://localhost:3001/products`)).json();
+  const paths = data.map((product: any) => (
+    { params: { id: product.id.toString() } }
+  ))
   return {
-    paths: paths,
+    paths,
     fallback: false
   }
 }
