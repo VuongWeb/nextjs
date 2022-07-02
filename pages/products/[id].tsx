@@ -12,7 +12,7 @@ const ProductsDetail = ({ product }: ProductProps) => {
   // console.log(id)
   if (!product) return null
   return (
-    <div> ProductsDetail {product.name}</div>
+    <div>  {product.name}</div>
   )
 }
 

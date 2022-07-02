@@ -21,7 +21,8 @@ export const getStaticProps: GetStaticProps<ProductProps> = async (context) => {
   return {
     props: {
       products: data.map((item: any) => ({ id: item.id, name: item.name }))
-    }
+    }, 
+    revalidate: 10
   }
 }
 export default Products
