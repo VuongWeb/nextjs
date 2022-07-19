@@ -9,6 +9,6 @@ const AdminPage = (props: Props) => {
     )
 }
 
-AdminPage.layout = AdminLayout
+AdminPage.Layout = AdminLayout
 
 export default AdminPage

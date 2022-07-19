@@ -19,6 +19,38 @@
       "id": 4,
       "name": "json-server-4",
       "author": "typicode-4"
+    },
+    {
+      "name": "Product A",
+      "id": 5
+    },
+    {
+      "name": "Product A",
+      "id": 6
+    },
+    {
+      "name": "Product A",
+      "id": 7
+    },
+    {
+      "name": "Product A",
+      "id": 8
+    },
+    {
+      "name": "Product A",
+      "id": 9
+    },
+    {
+      "name": "Product A",
+      "id": 10
+    },
+    {
+      "name": "Product A",
+      "id": 11
+    },
+    {
+      "name": "Product A",
+      "id": 12
     }
   ],
   "user": []
